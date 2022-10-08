@@ -6,6 +6,16 @@ intents:
   - thanks
   - city_info
 
+entities:
+  - city
+slots:
+  city:
+    type: text
+    auto_fill: True
+actions:
+  - action_show_time_zone
+
+
 responses:
 
   utter_greet:
@@ -18,7 +28,7 @@ responses:
     - text: "Which city do yo need to time zone of?"
   
   utter_finding_time_zone:
-    - text: "Ok, give me a second to look it up.."
+    - text: "Ok, give me a second to look up to time zone of {city}"
 
   utter_you_are_welcome:
     - text: "You are welcome!"

@@ -23,17 +23,19 @@
 - would you mind, if i ask you time?
 
 ## intent: find_time_zone_for_location
-- what is the time zone of London?
-- time zone of Lisbon?
-- do you know the time zone of Berlin?
-- i need to know time zone of the Turkey
+- what is the time zone of [London](city)?
+- time zone of [Lisbon](city)?
+- do you know the time zone of [Berlin](city)?
+- i need to know time zone of the [Turkey](city)
+- find the time zone of [london](city)
 
 ## intent: city_info
-- London
-- San Francisco
-- Turkey
-- Oslo
-- Auckland
+- [London](city)
+- [San Francisco](city)
+- [Turkey](city)
+- [Oslo](city)
+- [Auckland](city)
+- [Toronto](city)
 
 ## intent: thanks
 - thank you
